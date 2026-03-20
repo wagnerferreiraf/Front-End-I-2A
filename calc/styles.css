@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+}
+header, footer {
+    background-color: aqua;
+}
+
+header {
+    width: 150px;
+    height: 100vh;
+    position: fixed;
+}
+footer {
+    height: 50px;
+}
+
+main, footer {
+    margin-left: 150px;
+}
+
+main {
+    min-height: calc(100vh - 50px);
+}
